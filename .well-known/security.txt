@@ -1,12 +1,9 @@
-# Identity Sovereignty Audit - Node 01
-Contact: mailto:park@endlessvoid.space
-Encryption: https://endlessvoid.space/endlessvoid_public.asc
-Canonical: https://endlessvoid.space/.well-known/security.txt
-Expires: 2027-02-16T00:00:00.000Z
-Policy: https://endlessvoid.space/index.html
-Preferred-Languages: en
+# Identity Sovereignty Audit: Node 01
+# Protocol: SSH-Ed25519 (Vitality > Metric)
+# Verification Anchor: SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0
 
-# IDENTITY ANCHORS
-# PGP Fingerprint: 352F F2B9 6E13 4595 A426 02C0 1343 1305 4AFA 7B26
-# Public Key SHA256: 35fcce5775a7d60af4058134afd1cffdcc65783f5fb3516d3e1031a3819bfc43
-# Revocation Certificate SHA256: 84bce47c1ac112853a25fc68f5392c47e82c1509e99445db00e170f75cb48787
+Contact: mailto:park@endlessvoid.space
+Expires: 2027-02-16T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://endlessvoid.space/.well-known/security.txt
+Policy: https://endlessvoid.space/#technomoralist-mandate
