@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,38 +81,35 @@
             <p>If the "Technophilosopher Kings" promise a future of limitless expansion, the Technomoralist demands a defensive architecture. Humanity needs an <strong>SLA for the Living Subject</strong> — a perimeter of infrastructure that ensures the value of <strong>Compute</strong> serves the living, not the machine.</p>
             
             <div class="sla-block">
-                <h3>Sovereignty-Level-Agreement (v1.0)</h3>
+                <h3>Sovereignty-Level-Agreement (v1.1)</h3>
                 <ul class="sla-list">
                     <li>Availability: Primary control remains human-authorized.</li>
                     <li>Latency: Refutation of "Systemic Serfdom" lag.</li>
-                    <li>Security: Cryptographic isolation of the Identity Stack.</li>
+                    <li>Security: SSH-Ed25519 hardware-bound signing.</li>
                     <li>Provenance: Node ownership via technical necessity.</li>
                 </ul>
             </div>
 
-            <p>We must look to the laws of physics and technical necessity as our only guidelines. A machine does not flatter; a protocol does not lie. By securing the physical and logical dependencies of our lives — the raw <strong>Compute</strong>, the private keys, the sovereign domains — we move from being "users" of a system to being the <strong>Author</strong> of our own nature.</p>
+            <p>By securing the physical and logical dependencies of our lives — the raw <strong>Compute</strong>, the sovereign domains — we move from being "users" of a system to being the <strong>Author</strong> of our own nature.</p>
         </section>
 
-        <section id="identity-anchor">
+<section id="identity-anchor">
             <h3>Identity Sovereignty Audit</h3>
-            <p>Authorship verified via the <strong>Identity Stack</strong>. Any communication not signed by the following key is a hallucination or a deepfake.</p>
+            <p>Authorship verified via the <strong>Identity Stack</strong>. Commit integrity and node verification are anchored to the following Ed25519 signing key.</p>
             
-            <b>PGP Fingerprint:</b><br>
+            <b>SSH Signing Fingerprint (SHA256):</b><br>
             <div class="fingerprint">
-                352F F2B9 6E13 4595 A426 02C0 1343 1305 4AFA 7B26
+                SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0
             </div>
             
-            <br><b>SHA256 Integrity Hash (.asc):</b><br>
+            <br><b>Public Sovereign Root (Ed25519):</b><br>
             <div class="hash-block">
-                35fcce5775a7d60af4058134afd1cffdcc65783f5fb3516d3e1031a3819bfc43
+                ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhvqRb5gy7xIA2517eZGIjkecMiq5NR1JHOCP9iTVYI park@endlessvoid.space
             </div>
             
-            <a href="/endlessvoid_public.asc">Download Public Key (.asc)</a>
-
             <div class="continuity-note">
-                [Node 01 Continuity Protocol: Master Revocation Key is airgapped and physically isolated. Identity persistence is anchored in technical necessity, not platform permission.]
+                [Node 01 Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. This replaces legacy PGP protocols to reduce systemic friction while maintaining logical sovereignty. Identity persistence is anchored in technical necessity, not platform permission.]
             </div>
         </section>
-    </main>
 </body>
 </html>
