@@ -1,0 +1,21 @@
+{
+  "version": "1.3",
+  "node_id": "01",
+  "current_identity": {
+    "type": "ssh-ed25519",
+    "fingerprint": "SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0",
+    "status": "active",
+    "activated_at": "2026-02-15",
+    "verification_endpoint": "https://endlessvoid.space/.well-known/security.txt"
+  },
+  "history": [
+    {
+      "type": "pgp-legacy",
+      "fingerprint": "SHA256:35fcce5775a7d60af4058134afd1cffdcc65783f5fb3516d3e1031a3819bfc43",
+      "status": "retired",
+      "retired_at": "2026-02-15",
+      "reason": "Migration to SSH-Ed25519 Sovereignty (Ref: Node 01 Audit)"
+    }
+  ],
+  "mandate": "Infrastructure > Platform"
+}
