@@ -3,6 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EndlessVoid // The Technomoralists</title>
+    <link rel="security" href="/.well-known/security.txt">
+    <style>
+        body { 
+            background: #fffff8; 
+            color: #111; 
+            font-family: "Et-book", "Palatino", serif; 
+            line-height: 1.6; 
+            padding: 6vw 10vw; 
+            margin: 0; 
+            display: grid; 
+            grid-template-columns: 1.3fr 3fr; 
+            gap: 5rem; 
+        }
+        
+        @media (max-width: 900px) { 
+            body { grid-template-columns: 1fr; padding: 2rem; } 
+            .side { text-align: left; } 
+        }
+
+        header { grid-column: 1 / -1; border-bottom: 2px solid #111; margin-bottom: 4rem; padding-bottom: 1rem; }
+        h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: 0.1rem; margin: 0; text-transform: uppercase; }
+        .subtitle { font-family: "JetBrains Mono", monospace; color: #b31b1b; font-size: 0.8rem; margin-top: 0.5rem; }
+
+        .side { font-size: 0.85rem; color: #555; text-align: right; line-height: 1.4; }
+        .margin-note { margin-bottom: 3rem; border-right: 2px solid #b31b1b; padding-right: 1.5rem; }
+        .margin-note b { font-family: "JetBrains Mono", monospace; color: #111; display: block; text-transform: uppercase; margin-bottom: 0.5rem; }
+
+        h2 { font-size: 1.3rem; font-weight: normal; font-style: italic; border-bottom: 1px solid #ddd; margin-top: 0; margin-bottom: 1.5rem; }
+        p { margin-bottom: 1.8rem; max-width: 40rem; font-size: 1.1rem; }
+        
+        .sla-block { border: 1px solid #111; padding: 1.5rem; background: #fff; box-shadow: 5px 5px 0px #111; margin: 2rem 0; }
+        .sla-block h3 { margin-top: 0; font-family: "JetBrains Mono", monospace; font-size: 0.9rem; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
+        .sla-list { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; list-style: none; padding: 0; }
+        .sla-list li { margin-bottom: 0.5rem; }
+        .sla-list li::before { content: "> "; color: #b31b1b; }
+        
+        a { color: #b31b1b; text-decoration: none; border-bottom: 1px dotted #b31b1b; }
+        a:hover { border-bottom: 1px solid #b31b1b; }
+
+        #identity-anchor { margin-top: 4rem; padding-top: 2rem; border-top: 1px double #111; }
+        #identity-anchor h3 { font-family: "JetBrains Mono", monospace; font-size: 0.9rem; text-transform: uppercase; }
+        .fingerprint { font-family: "JetBrains Mono", monospace; background: #eee; padding: 0.5rem; display: inline-block; font-size: 0.8rem; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ENDLESSVOID.SPACE</h1>
+        <div class="subtitle">The Sovereignty-Level-Agreement (SLA) for Humans // Node 01</div>
+    </header>
+
+    <aside class="side">
+        <div class="margin-note">
+            <b>The Mandate</b>
+            The modern social contract is a misshapen bargain. We exchange vitality for convenience. This is a breach of the natural order.
+        </div>
+        <div class="margin-note">
+            <b>Negative Education</b>
+            We do not seek to be "Relevant" to the algorithm. We seek to be Autonomous from it.
+        </div>
+        <div class="margin-note">
+            <b>Directives</b>
+            Necessity > Will.<br>
+            Infrastructure > Platform.<br>
+            Vitality > Metric.
+        </div>
+    </aside>
+
+    <main class="main">
+        <section>
+            <h2>The Technomoralists Mandate</h2>
+            <p>If the "Technophilosopher Kings" promises a future of limitless expansion, the Technomoralists demands a defensive architecture. Humanity needs an <strong>SLA for the Living Subject</strong>—a perimeter of infrastructure that ensures the value of <strong>Compute</strong> serves the living, not the machine.</p>
+            
+            <div class="sla-block">
+                <h3>Sovereignty-Level-Agreement (v1.0)</h3>
+                <ul class="sla-list">
+                    <li>Availability: 100% human agency over primary logic.</li>
+                    <li>Latency: Refutation of "Systemic Serfdom" lag.</li>
+                    <li>Security: Cryptographic isolation of the Identity Stack.</li>
+                    <li>Provenance: Node ownership via technical necessity.</li>
+                </ul>
+            </div>
+
+            <p>We must look to the laws of physics and existence as our only master. A machine does not flatter; a protocol does not lie. By securing the physical and logical dependencies of our lives—the raw <strong>Compute</strong>, the private keys, the sovereign domains—we move from being "users" of a system to being the <strong>Authors</strong> of our own nature.</p>
+        </section>
+
+        <section>
+            <h2>Architectural Resilience</h2>
+            <p>We seek those who recognize the misshapen nature of our digital contract. We build nodes, not profiles. We secure dependencies, not services. The goal is to live in an agentic world without becoming an agent yourself.</p>
+        </section>
+
+        <section id="identity-anchor">
+            <h3>Identity Sovereignty Audit</h3>
+            <p>Authorship verified via the <strong>Identity Stack</strong>. Any communication not signed by the following key is a hallucination or a deepfake.</p>
+            <div class="fingerprint">
+                352F F2B9 6E13 4595 A426 02C0 1343 1305 4AFA 7B26
+            </div>
+            <br>
+            <a href="/endlessvoid_public.asc">Download Public Key (.asc)</a>
+        </section>
+    </main>
+</body>
+</html>PE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EndlessVoid // The Technomoralist</title>
     <link rel="security" href="/.well-known/security.txt">
     <style>
