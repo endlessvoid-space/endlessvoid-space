@@ -24,6 +24,38 @@
             body { grid-template-columns: 1fr; padding: 2rem; } 
             .side { text-align: left; } 
         }
+        /* Normalized Identity Stack Components */
+.hash-block { 
+    font-family: "JetBrains Mono", monospace; 
+    background: #eee; 
+    padding: 0.75rem; 
+    display: block; 
+    font-size: 0.75rem; 
+    margin: 1rem 0; 
+    word-break: break-all; 
+    color: #333;
+    border-left: 2px solid #ddd;
+}
+
+.fingerprint { 
+    font-family: "JetBrains Mono", monospace; 
+    background: #eee; 
+    padding: 0.5rem 0.75rem; 
+    display: inline-block; 
+    font-size: 0.8rem; 
+    margin: 1rem 0; 
+    border-left: 2px solid #b31b1b;
+}
+
+.continuity-note {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    color: #777;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px dotted #ccc;
+    line-height: 1.4;
+}
 
         header { grid-column: 1 / -1; border-bottom: 2px solid #111; margin-bottom: 4rem; padding-bottom: 1rem; }
         h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: 0.1rem; margin: 0; text-transform: uppercase; }
@@ -95,11 +127,11 @@
 
 <section id="identity-anchor">
     <h3>Identity Sovereignty Audit</h3>
-    <p>Authorship verified via the <strong>Identity Stack</strong>. Commit integrity and node verification are anchored to the following Ed25519 signing key.</p>
+    <p>Authorship verified via the <strong>Identity Stack</strong>. Node 01 serves as the Existential Root.</p>
     
     <b>Sovereign Source (Repository):</b><br>
-    <div class="hash-block" style="margin-top: 5px; margin-bottom: 20px;">
-        <a href="https://github.com/endlessvoid-space/endlessvoid-space" style="color: #b31b1b; text-decoration: none; border-bottom: 1px solid #b31b1b;">github.com/endlessvoid-space/endlessvoid-space</a>
+    <div class="hash-block">
+        <a href="https://github.com/endlessvoid-space/endlessvoid-space">github.com/endlessvoid-space/endlessvoid-space</a>
     </div>
 
     <b>SSH Signing Fingerprint (SHA256):</b><br>
@@ -107,13 +139,13 @@
         SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0
     </div>
     
-<br><b>Public Sovereign Root (Ed25519):</b><br>
+    <br><b>Public Sovereign Root (Ed25519):</b><br>
     <div class="hash-block">
         ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhvqRb5gy7xIA2517eZGIjkecMiq5NR1JHOCP9iTVYI
     </div>
     
     <div class="continuity-note">
-        [Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. This replaces legacy PGP protocols to reduce systemic friction while maintaining logical sovereignty. Identity persistence is anchored in technical necessity, not platform permission.]
+        [Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. Existential sovereignty is maintained through physical and logical infrastructure ownership, rejecting platform-level identity mediation.]
     </div>
 </section>
 </body>
