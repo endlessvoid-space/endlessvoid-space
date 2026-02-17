@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,38 +25,6 @@
             body { grid-template-columns: 1fr; padding: 2rem; } 
             .side { text-align: left; } 
         }
-        /* Normalized Identity Stack Components */
-.hash-block { 
-    font-family: "JetBrains Mono", monospace; 
-    background: #eee; 
-    padding: 0.75rem; 
-    display: block; 
-    font-size: 0.75rem; 
-    margin: 1rem 0; 
-    word-break: break-all; 
-    color: #333;
-    border-left: 2px solid #ddd;
-}
-
-.fingerprint { 
-    font-family: "JetBrains Mono", monospace; 
-    background: #eee; 
-    padding: 0.5rem 0.75rem; 
-    display: inline-block; 
-    font-size: 0.8rem; 
-    margin: 1rem 0; 
-    border-left: 2px solid #b31b1b;
-}
-
-.continuity-note {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.7rem;
-    color: #777;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px dotted #ccc;
-    line-height: 1.4;
-}
 
         header { grid-column: 1 / -1; border-bottom: 2px solid #111; margin-bottom: 4rem; padding-bottom: 1rem; }
         h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: 0.1rem; margin: 0; text-transform: uppercase; }
@@ -77,17 +46,47 @@
         a { color: #b31b1b; text-decoration: none; border-bottom: 1px dotted #b31b1b; }
         a:hover { border-bottom: 1px solid #b31b1b; }
 
+        /* Normalized Identity Stack Components */
         #identity-anchor { margin-top: 4rem; padding-top: 2rem; border-top: 1px double #111; }
         #identity-anchor h3 { font-family: "JetBrains Mono", monospace; font-size: 0.9rem; text-transform: uppercase; }
-        .hash-block { font-family: "JetBrains Mono", monospace; background: #eee; padding: 0.5rem; display: block; font-size: 0.75rem; margin: 1rem 0; word-break: break-all; }
-        .fingerprint { font-family: "JetBrains Mono", monospace; background: #eee; padding: 0.5rem; display: inline-block; font-size: 0.8rem; margin: 1rem 0; }
-        .continuity-note { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #777; margin-top: 2rem; }
+        
+        .hash-block { 
+            font-family: "JetBrains Mono", monospace; 
+            background: #eee; 
+            padding: 0.75rem; 
+            display: block; 
+            font-size: 0.75rem; 
+            margin: 1rem 0; 
+            word-break: break-all; 
+            color: #333;
+            border-left: 2px solid #ddd;
+        }
+
+        .fingerprint { 
+            font-family: "JetBrains Mono", monospace; 
+            background: #eee; 
+            padding: 0.5rem 0.75rem; 
+            display: inline-block; 
+            font-size: 0.8rem; 
+            margin: 1rem 0; 
+            border-left: 2px solid #b31b1b;
+        }
+
+        .continuity-note {
+            font-family: "JetBrains Mono", monospace;
+            font-size: 0.7rem;
+            color: #777;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px dotted #ccc;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>ENDLESSVOID.SPACE</h1>
-        <div class="subtitle">The Sovereignty-Level-Agreement (SLA) for Humans // Node 01</div>
+        <div class="subtitle">Node 01 // The Technomoralist</div>
     </header>
 
     <aside class="side">
@@ -125,28 +124,29 @@
             <p>By securing the physical and logical dependencies of our lives — the raw <strong>Compute</strong>, the sovereign domains — we move from being "users" of a system to being the <strong>Author</strong> of our own nature.</p>
         </section>
 
-<section id="identity-anchor">
-    <h3>Identity Sovereignty Audit</h3>
-    <p>Authorship verified via the <strong>Identity Stack</strong>. Node 01 serves as the Existential Root.</p>
-    
-    <b>Sovereign Source (Repository):</b><br>
-    <div class="hash-block">
-        <a href="https://github.com/endlessvoid-space/endlessvoid-space">github.com/endlessvoid-space/endlessvoid-space</a>
-    </div>
+        <section id="identity-anchor">
+            <h3>Identity Sovereignty Audit</h3>
+            <p>Authorship verified via the <strong>Identity Stack</strong>. Node 01 serves as the Existential Root.</p>
+            
+            <b>Sovereign Source (Repository):</b><br>
+            <div class="hash-block">
+                <a href="https://github.com/endlessvoid-space/endlessvoid-space">github.com/endlessvoid-space/endlessvoid-space</a>
+            </div>
 
-    <b>SSH Signing Fingerprint (SHA256):</b><br>
-    <div class="fingerprint">
-        SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0
-    </div>
-    
-    <br><b>Public Sovereign Root (Ed25519):</b><br>
-    <div class="hash-block">
-        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhvqRb5gy7xIA2517eZGIjkecMiq5NR1JHOCP9iTVYI
-    </div>
-    
-    <div class="continuity-note">
-        [Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. Existential sovereignty is maintained through physical and logical infrastructure ownership, rejecting platform-level identity mediation.]
-    </div>
-</section>
+            <b>SSH Signing Fingerprint (SHA256):</b><br>
+            <div class="fingerprint">
+                SHA256:EImwROjfIir5/+0y9BNw6+waGMdD3i5Xkp488UUQ2H0
+            </div>
+            
+            <br><b>Public Sovereign Root (Ed25519):</b><br>
+            <div class="hash-block">
+                ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhvqRb5gy7xIA2517eZGIjkecMiq5NR1JHOCP9iTVYI
+            </div>
+            
+            <div class="continuity-note">
+                [Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. Existential sovereignty is maintained through physical and logical infrastructure ownership, rejecting platform-level identity mediation.]
+            </div>
+        </section>
+    </main>
 </body>
 </html>
