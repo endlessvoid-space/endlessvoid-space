@@ -1,31 +1,30 @@
 # I. EXAMPLE SOVEREIGN ARCHITECTURE (Topology)
 
-The architecture is a closed-loop system designed to protect the **Human** from external profiling and internal over-optimization.
+The architecture is a closed-loop system designed to protect the *Human* from external profiling and internal over-optimization.
 
-
-                        ┌─────────────┐
-                        │   Node 01   │
-                        │  (Superego) │
-                        │    Root     │
-                        │ Air-gapped  │
-                        │  Reality &  │
-                        │   Feeling   │
-                        └─────┬───────┘
-                              │
-                              │ Anchors material
-                              │ constraints & intuition
-                              ▼
-                    ┌─────────────────────┐
-                    │       Node 03       │
-                    │       (Ego)         │
-                    │   The Governor      │
-                    │ Oversees 01 & 02    │
-                    │ Audits & Guides     │
-                    │ Human Maintenance   │
-                    └─────────┬──────────┘
-                              │
-      ┌───────────────────────┴───────────────────────┐
-      ▼                                               ▼
+                    ┌─────────────┐
+                    │   Node 01   │
+                    │  (Superego) │
+                    │    Root     │
+                    │ Air-gapped  │
+                    │  Reality &  │
+                    │   Feeling   │
+                    └─────┬───────┘
+                          │
+                          │ Anchors material
+                          │ constraints & intuition
+                          ▼
+                ┌─────────────────────┐
+                │       Node 03       │
+                │       (Ego)         │
+                │   The Governor      │
+                │ Oversees 01 & 02    │
+                │ Audits & Guides     │
+                │ Human Maintenance   │
+                └─────────┬──────────┘
+                          │
+  ┌───────────────────────┴───────────────────────┐
+  ▼                                               ▼
 ┌─────────────┐                                ┌─────────────┐
 │   Node 02   │                                │   Node 00   │
 │    (Id)     │                                │    BLOB     │
