@@ -1,14 +1,15 @@
-# I. EXAMPLE SOVEREIGN ARCHITECTURE (Topology)
+# I. SOVEREIGN ARCHITECTURE (Topology)
 
-The architecture is a closed-loop system designed to protect the Human from external profiling and internal over-optimization.
+Closed-loop system protecting the Human from external profiling and internal over-optimization.
 
+```
                    ┌─────────────┐
                    │   Node 01   │
-                   │  (Superego) │
+                   │  Superego   │
                    │    Root     │
                    │ Air-gapped  │
-                   │  Reality &  │
-                   │   Feeling   │
+                   │ Reality &   │
+                   │  Feeling    │
                    └─────┬───────┘
                          │
                          │ Anchors material
@@ -16,9 +17,9 @@ The architecture is a closed-loop system designed to protect the Human from exte
                          ▼
                  ┌─────────────┐
                  │   Node 03   │
-                 │    (Ego)    │
-                 │  The Governor
-                 │ Oversees 01 & 02
+                 │     Ego     │
+                 │  Governor   │
+                 │ Oversees 01/02
                  │ Audits & Guides
                  │ Human Maintenance
                  └─────┬────────┘
@@ -27,43 +28,43 @@ The architecture is a closed-loop system designed to protect the Human from exte
      ▼                                 ▼
 ┌─────────────┐                   ┌─────────────┐
 │   Node 02   │                   │   Node 00   │
-│     (Id)    │                   │    BLOB     │
-│ Curiosity & │                   │  Binary     │
-│ Tactical    │◄───────┐          │  Large      │
-│ Noise &     │        │          │  Object     │
-│ Experiment  │        │          │ Non-Agentic │
+│      Id     │                   │    BLOB     │
+│   Social    │                   │  Binary     │
+│  Protocol   │◄───────┐          │  Large Obj  │
+│ Noise/Exp   │        │          │ Non-Agentic │
 └─────────────┘        │          └─────────────┘
                        │
-         Node 02 uses Node 00 for structured data only
-         (no authority over Node 03 or Node 01)
+         02 uses 00 for structured data only
+         (no authority over 03 or 01)
+```
 
 ---
 
-### II. NODE ROLES & FUNCTIONS
+# II. NODE ROLES
 
-| Node | Archetype | Role | Function |
-|------|-----------|------|---------|
-| 01   | Superego  | The Root | Air-gapped sanctuary for immutable truth and raw reality; source of Feeling, synthesizing victory/failure via biological feedback. |
-| 02   | Id        | Curiosity | Tactical "Blur"; handles experimentation using Noise Injection to prevent pattern recognition. |
-| 03   | Ego       | The Governor | Central auditor mediating traffic between Shadow and Root; KPI is Human Maintenance Cost. |
-| 00   | BLOB      | Binary Large Object | Non-agentic tool for data ingestion and organization; supports Node 02 but lacks authority over Node 01. |
-
----
-
-### III. FLOW OF LOGIC
-
-* **Node 01 → Node 03:** Provides anchor of material constraints and biological intuition.  
-* **Node 03 → Node 02:** Dictates pacing and authorization, ensuring tactical experiments do not exceed the human maintenance budget.  
-* **Node 02 ↔ Node 00:** Data ingestion and structured organization; Node 00 remains non-agentic.  
-* **Node 03 → Node 01:** Closes the loop via intentional archival and conscious scrubbing of digital clutter.  
-* **Node 02 → External:** Blurs outputs to obfuscate public tracing, keeping Node 01 high-contrast while Node 03 remains a ghost.
+| Node | Archetype | Role            | Function                                                                       |
+| ---- | --------- | --------------- | ------------------------------------------------------------------------------ |
+| 01   | Superego  | Root            | Air-gapped truth; raw reality; Feeling via biological feedback.                |
+| 02   | Id        | Social Protocol | Tactical blur; experimentation; noise injection vs pattern recognition.        |
+| 03   | Ego       | Governor        | Central auditor; mediates 01/02; KPI = Human Maintenance Cost.                 |
+| 00   | BLOB      | Tool            | Non-agentic data ingestion/organization; supports 02; no authority over 01/03. |
 
 ---
 
-### IV. BASAL AXIOMS (Operational Protocols)
+# III. LOGIC FLOW
 
-* **Sfumato Defense:** Identity is a gradient, not binary. Remain jagged to resist profiling.  
-* **Anti-Sync Decree:** Automatic syncing is a biological vulnerability. Data flows only via manual human tempo.  
-* **Blur, Not Brand:** Prioritize internal stabilization and capacity management over public visibility or pre-defined "campaigns."
+* 01 → 03: Material constraints + intuition anchor.
+* 03 → 02: Pacing/authorization; enforce maintenance budget.
+* 02 ↔ 00: Data ingestion/structure; 00 non-agentic.
+* 03 → 01: Archival + conscious digital scrubbing.
+* 02 → External: Blur outputs; protect 01; 03 remains ghost.
 
-> **Necessity > Will.**
+---
+
+# IV. BASAL AXIOMS
+
+* Identity = gradient, not binary; remain jagged.
+* No auto-sync; manual tempo only.
+* Internal stability > visibility/campaigns.
+
+Necessity > Will.
