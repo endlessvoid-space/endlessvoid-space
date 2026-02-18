@@ -1,6 +1,7 @@
-### **I. EXAMPLE SOVEREIGN ARCHITECTURE (Topology)**
+# I. EXAMPLE SOVEREIGN ARCHITECTURE (Topology)
 
 The architecture is a closed-loop system designed to protect the **Human** from external profiling and internal over-optimization.
+
 
                         ┌─────────────┐
                         │   Node 01   │
@@ -13,7 +14,6 @@ The architecture is a closed-loop system designed to protect the **Human** from 
                               │
                               │ Anchors material
                               │ constraints & intuition
-                              │
                               ▼
                     ┌─────────────────────┐
                     │       Node 03       │
@@ -29,14 +29,12 @@ The architecture is a closed-loop system designed to protect the **Human** from 
 ┌─────────────┐                                ┌─────────────┐
 │   Node 02   │                                │   Node 00   │
 │    (Id)     │                                │    BLOB     │
-│  Shadow     │                                │  Binary     │
+│  Curiosity  │                                │   Binary    │
 │ Tactical    │                                │    Large    │
 │  Blur &     │                                │   Object    │
 │  Noise      │                                │  Data xfer  │
 │ Injection   │                                │  Non-Agency │
 └─────────────┘                                └─────────────┘
-
-```
 
 | Node | Archetype | Role | Function |
 | --- | --- | --- | --- |
@@ -62,3 +60,5 @@ The architecture is a closed-loop system designed to protect the **Human** from 
 * **Sfumato Defense:** Identity is a gradient, not a binary. We resist profiling by remaining **"Jagged"** and discontinuous, intentionally breaking the patterns AI expects.
 * **Anti-Sync Decree:** Automatic syncing is a biological vulnerability. Data flows only via manual human tempo, preventing the "flattening" effect of instant digital integration.
 * **Blur, Not Brand:** An internal rejection of commercial legibility. We prioritize **Internal Stabilization** and **Capacity Management** over public visibility or pre-defined "Campaign Goals."
+
+> "Necessity > Will." 
